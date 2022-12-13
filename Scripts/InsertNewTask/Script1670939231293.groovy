@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Daffa Ramadhan\\Downloads\\com.yoesuv.androidroom-v3(2.1.2)-release.apk', false)
 
-// insert new task
+// insert new task 1
 
 Mobile.verifyElementText(findTestObject('Object Repository/ElementByText', [('element') : 'My Task']), 'My Task')
 
